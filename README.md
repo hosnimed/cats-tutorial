@@ -1,15 +1,13 @@
-cats-effect-tutorial
+cats-tutorial
 ====================
 
-Source code of the examples/exerciese of [cats-effect
-tutorial](https://lrodero.github.io/cats-effect/tutorial/tutorial.html).
+
+Inspired by [cats-effect
+tutorial](https://github.com/lrodero/cats-effect-tutorial).
 
 All contents are realeased under the [Apache v2
 license](https://www.apache.org/licenses/LICENSE-2.0).
 
-There are different releases of this tutorial for different versions
-of cats-effect. Each release is properly tagged (_e.g._ `cats-effect_v1.3.0`
-for cats-effect v1.3.0).
 
 Compile and run the examples
 ----------------------------
@@ -20,8 +18,7 @@ $ sbt
 ```
 
 Any of the files can be executed also using `sbt`. So for example to run
-`catsEffectTutorial.CopyFile` to copy an `origin.txt` file to another
-`destination.txt` file we will run:
+`Validated` we will run:
 ```bash
-> runMain catsEffectTutorial.CopyFile origin.txt destination.txt
+> runMain Validated
 ```
